@@ -1,6 +1,6 @@
-#Windows Installation Instructions
+# Windows Installation Instructions
 
-###Required Software
+### Required Software
 
 **Download and Install Vagrant**
 
@@ -48,8 +48,8 @@ In Windows Explorer, navigate to a location within which to create your project.
 
 **Change to the Directory and Launch Vagrant**
 
-    cd centos6-pe2016.4.15LTS
-    vagrant up
+	cd centos6-pe2016.4.15LTS
+	vagrant up
 
 **Notes:**
 
