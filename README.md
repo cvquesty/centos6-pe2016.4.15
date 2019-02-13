@@ -10,6 +10,11 @@ It should also be noted that I have had intermittent issues with Virtualbox/Vagr
 configuration. Sometimes I can "vagrant up" and the instance stands up without issue. Other times
 Virtualbox loses track of something or PE does.
 
+
+If this happens to you, run `vagrant destroy` and destroy all the instances.
+Then, run `vagrant up` again, and it usually works second time. Rarely,
+I've had to do a third, but it _has_ happened. :)
+
 TODO: Looking to move to Oscar or some other provisioning component in the future.
 
 In the rollup, I have:
