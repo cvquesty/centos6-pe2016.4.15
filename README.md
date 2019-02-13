@@ -1,6 +1,17 @@
 # Puppet Enterprise 3-Node Environment
 Includes a Puppet Master plus a Development, Testing, and Production Node
 
+NOTES:
+
+This is the current PE 2016.x.x LTS support archive. Only use this PE for 2016.x.x work unless
+you have a specific version need.
+
+It should also be noted that I have had intermittent issues with Virtualbox/Vagrant/PE in this
+configuration. Sometimes I can "vagrant up" and the instance stands up without issue. Other times
+Virtualbox loses track of something or PE does.
+
+TODO: Looking to move to Oscar or some other provisioning component in the future.
+
 In the rollup, I have:
 
 CentOS Linux 6<br>
